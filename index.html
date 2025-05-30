@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovaTech - Технології майбутнього</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+      <!-- Header -->
+      <header>
+          <nav class="container">
+              <a href="#" class="logo">InnovaTech</a>
+              <ul class="nav-links">
+                  <li><a href="#home">Головна</a></li>
+                  <li><a href="#features">Послуги</a></li>
+                  <li><a href="#stats">Статистика</a></li>
+                  <li><a href="#contact">Контакти</a></li>
+              </ul>
+          </nav>
+      </header>
+  
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+          <div class="bg-animation">
+              <!-- Animated background elements will be added by JavaScript -->
+          </div>
+          <div class="container">
+              <div class="hero-content">
+                  <h1>Технології майбутнього вже сьогодні</h1>
+                  <p>Ми створюємо інноваційні рішення, які змінюють світ. Приєднуйтесь до революції в галузі технологій та відкрийте нові можливості для вашого бізнесу.</p>
+                  <a href="#contact" class="cta-button">Почати співпрацю</a>
+              </div>
+          </div>
+      </section>
+  
+      <!-- Features Section -->
+      <section id="features" class="features">
+          <div class="container">
+              <h2 class="section-title scroll-animate">Наші послуги</h2>
+              <div class="features-grid">
+                  <div class="feature-card scroll-animate">
+                      <div class="feature-icon">🚀</div>
+                      <h3>Веб-розробка</h3>
+                      <p>Створюємо сучасні веб-сайти та додатки з використанням найновіших технологій. Адаптивний дизайн, швидкість завантаження та SEO-оптимізація гарантовані.</p>
+                  </div>
+                  <div class="feature-card scroll-animate">
+                      <div class="feature-icon">📱</div>
+                      <h3>Мобільні додатки</h3>
+                      <p>Розробляємо нативні та кросплатформні мобільні додатки для iOS та Android. Інтуїтивний інтерфейс та високу продуктивність забезпечено.</p>
+                  </div>
+                  <div class="feature-card scroll-animate">
+                      <div class="feature-icon">🤖</div>
+                      <h3>Штучний інтелект</h3>
+                      <p>Впроваджуємо рішення на основі машинного навчання та штучного інтелекту для автоматизації бізнес-процесів та підвищення ефективності.</p>
+                  </div>
+                  <div class="feature-card scroll-animate">
+                      <div class="feature-icon">☁️</div>
+                      <h3>Хмарні рішення</h3>
+                      <p>Допомагаємо перенести ваш бізнес у хмару. Масштабованість, безпека та доступність ваших даних 24/7 в будь-якій точці світу.</p>
+                  </div>
+                  <div class="feature-card scroll-animate">
+                      <div class="feature-icon">🔒</div>
+                      <h3>Кібербезпека</h3>
+                      <p>Забезпечуємо надійний захист ваших цифрових активів. Комплексний підхід до безпеки включає аудит, моніторинг та превентивні заходи.</p>
+                  </div>
+                  <div class="feature-card scroll-animate">
+                      <div class="feature-icon">📊</div>
+                      <h3>Аналітика даних</h3>
+                      <p>Перетворюємо ваші дані в цінні інсайти. Візуалізація, прогнозування та автоматизовані звіти для прийняття обґрунтованих рішень.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <!-- Stats Section -->
+      <section id="stats" class="stats">
+          <div class="container">
+              <h2 class="section-title scroll-animate">Наші досягнення</h2>
+              <div class="stats-grid">
+                  <div class="stat-item scroll-animate">
+                      <span class="stat-number" data-target="500">0</span>
+                      <span class="stat-label">Завершених проектів</span>
+                  </div>
+                  <div class="stat-item scroll-animate">
+                      <span class="stat-number" data-target="150">0</span>
+                      <span class="stat-label">Задоволених клієнтів</span>
+                  </div>
+                  <div class="stat-item scroll-animate">
+                      <span class="stat-number" data-target="5">0</span>
+                      <span class="stat-label">Years Experience</span>
+                  </div>
+                  <div class="stat-item scroll-animate">
+                      <span class="stat-number" data-target="24">0</span>
+                      <span class="stat-label">Підтримка 24/7</span>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+          <div class="container">
+              <h2 class="section-title scroll-animate">Зв'яжіться з нами</h2>
+              <form class="contact-form scroll-animate">
+                  <div class="form-group">
+                      <label for="name">Ім'я</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="phone">Телефон</label>
+                      <input type="tel" id="phone" name="phone">
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Повідомлення</label>
+                      <textarea id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="submit-button">Відправити повідомлення</button>
+              </form>
+          </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer>
+          <div class="container">
+              <p>&copy; 2025 InnovaTech. Всі права захищені. Створено з ❤️ в Україні.</p>
+          </div>
+      </footer>
+  
+      <script>
+          // Smooth scrolling for navigation links
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+                  const target = document.querySelector(this.getAttribute('href'));
+                  if (target) {
+                      target.scrollIntoView({
+                          behavior: 'smooth',
+                          block: 'start'
+                      });
+                  }
+              });
+          });
+  
+          // Header scroll effect
+          window.addEventListener('scroll', () => {
+              const header = document.querySelector('header');
+              if (window.scrollY > 100) {
+                  header.style.background = 'rgba(10, 10, 30, 0.98)';
+                  header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+              } else {
+                  header.style.background = 'rgba(10, 10, 30, 0.95)';
+                  header.style.boxShadow = 'none';
+              }
+          });
+  
+          // Animated background elements
+          function createFloatingElements() {
+              const bgAnimation = document.querySelector('.bg-animation');
+              const colors = ['rgba(0, 255, 136, 0.3)', 'rgba(0, 136, 255, 0.3)', 'rgba(255, 0, 136, 0.3)'];
+              
+              for (let i = 0; i < 15; i++) {
+                  const element = document.createElement('div');
+                  element.className = 'floating-element';
+                  element.style.left = Math.random() * 100 + '%';
+                  element.style.top = Math.random() * 100 + '%';
+                  element.style.background = colors[Math.floor(Math.random() * colors.length)];
+                  element.style.animationDelay = Math.random() * 6 + 's';
+                  element.style.animationDuration = (Math.random() * 4 + 4) + 's';
+                  bgAnimation.appendChild(element);
+              }
+          }
+  
+          // Scroll animations
+          function animateOnScroll() {
+              const elements = document.querySelectorAll('.scroll-animate');
+              const observer = new IntersectionObserver((entries) => {
+                  entries.forEach(entry => {
+                      if (entry.isIntersecting) {
+                          entry.target.classList.add('animated');
+                      }
+                  });
+              }, { threshold: 0.1 });
+  
+              elements.forEach(el => observer.observe(el));
+          }
+  
+          // Counter animation
+          function animateCounters() {
+              const counters = document.querySelectorAll('.stat-number');
+              const observer = new IntersectionObserver((entries) => {
+                  entries.forEach(entry => {
+                      if (entry.isIntersecting) {
+                          const counter = entry.target;
+                          const target = parseInt(counter.getAttribute('data-target'));
+                          let current = 0;
+                          const increment = target / 50;
+                          const timer = setInterval(() => {
+                              current += increment;
+                              if (current >= target) {
+                                  counter.textContent = target;
+                                  clearInterval(timer);
+                              } else {
+                                  counter.textContent = Math.floor(current);
+                              }
+                          }, 50);
+                          observer.unobserve(counter);
+                      }
+                  });
+              }, { threshold: 0.5 });
+  
+              counters.forEach(counter => observer.observe(counter));
+          }
+  
+          // Form submission
+          document.querySelector('.contact-form').addEventListener('submit', function(e) {
+              e.preventDefault();
+              
+              // Get form data
+              const formData = new FormData(this);
+              const name = formData.get('name');
+              const email = formData.get('email');
+              const phone = formData.get('phone');
+              const message = formData.get('message');
+              
+              // Simulate form submission
+              const submitButton = this.querySelector('.submit-button');
+              const originalText = submitButton.textContent;
+              
+              submitButton.textContent = 'Відправляємо...';
+              submitButton.style.background = '#666';
+              
+              setTimeout(() => {
+                  alert(`Дякуємо, ${name}! Ваше повідомлення було успішно відправлено. Ми зв'яжемося з вами найближчим часом.`);
+                  this.reset();
+                  submitButton.textContent = originalText;
+                  submitButton.style.background = 'linear-gradient(45deg, #00ff88, #0088ff)';
+              }, 2000);
+          });
+  
+          // Particle cursor effect
+          function createParticleEffect() {
+              let particles = [];
+              
+              document.addEventListener('mousemove', (e) => {
+                  particles.push({
+                      x: e.clientX,
+                      y: e.clientY,
+                      size: Math.random() * 5 + 2,
+                      life: 1
+                  });
+                  
+                  if (particles.length > 20) {
+                      particles.shift();
+                  }
+              });
+              
+              function animateParticles() {
+                  particles.forEach((particle, index) => {
+                      particle.life -= 0.02;
+                      particle.size *= 0.95;
+                      
+                      if (particle.life <= 0) {
+                          particles.splice(index, 1);
+                      }
+                  });
+                  
+                  requestAnimationFrame(animateParticles);
+              }
+              
+              animateParticles();
+          }
+  
+          // Initialize everything when DOM is loaded
+          document.addEventListener('DOMContentLoaded', () => {
+              createFloatingElements();
+              animateOnScroll();
+              animateCounters();
+              createParticleEffect();
+          });
+  
+          // Add some interactive hover effects
+          document.querySelectorAll('.feature-card').forEach(card => {
+              card.addEventListener('mouseenter', function() {
+                  this.style.transform = 'translateY(-15px) rotateX(5deg)';
+                  this.style.transition = 'all 0.3s ease';
+              });
+              
+              card.addEventListener('mouseleave', function() {
+                  this.style.transform = 'translateY(0) rotateX(0)';
+              });
+          });
+  
+          // Dynamic greeting based on time
+          function updateGreeting() {
+              const now = new Date();
+              const hour = now.getHours();
+              let greeting;
+              
+              if (hour < 12) {
+                  greeting = "Доброго ранку!";
+              } else if (hour < 18) {
+                  greeting = "Доброго дня!";
+              } else {
+                  greeting = "Доброго вечора!";
+              }
+              
+              // You can use this greeting somewhere in your site
+              console.log(greeting + " Ласкаво просимо на InnovaTech!");
+          }
+  
+          updateGreeting();
+  
+          // Add loading animation
+          window.addEventListener('load', () => {
+              document.body.style.opacity = '0';
+              document.body.style.transition = 'opacity 0.5s ease';
+              
+              setTimeout(() => {
+                  document.body.style.opacity = '1';
+              }, 100);
+          });
+      </script>
+  </body>
+  </html>
